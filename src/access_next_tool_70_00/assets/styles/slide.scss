@@ -1,0 +1,426 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/main";
+
+/********** Slide Specific Styles *********/
+
+#access_next_tool_70_00 {
+	#settingsIcon,
+	#savedTemplatesIcon {
+		display: none;
+	}
+
+	.slide {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 1024px;
+		height: 768px;
+		overflow: hidden;
+		background: url("../images/background.jpg") right 0 no-repeat;
+		background-size: contain;
+	}
+
+	#isiMain {
+		position: absolute;
+		top: 535px;
+		height: 233px;
+		width: 1004px;
+
+		#isi_wrapper {
+			position: absolute;
+			top: 0;
+			height: 233px;
+			width: 1000px;
+			overflow: hidden;
+
+			.isi {
+				width: 1004px;
+
+				.isi_con {
+					background: url("../../../shared/images/takedaISI.png") no-repeat;
+					background-size: contain;
+					width: 952px;
+					height: 1135px;
+					margin-left: 37px;
+					margin-top: 1px;
+				}
+			}
+
+			.iScrollIndicator {
+				background: #ff0000;
+			}
+		}
+	}
+
+	#homeIcon {
+		a {
+			span {
+				background: url("../../../shared/images/homeIconwhite.svg");
+				background-size: contain;
+				width: 29px;
+				height: 24px;
+				position: absolute;
+				background-repeat: no-repeat;
+			}
+		}
+	}
+
+	#customerAccountName {
+		color: #fff;
+	}
+
+	#customerAccount {
+		background: url("../../../shared/images/userIconwhite.svg");
+		background-size: contain;
+		width: 24px;
+		height: 25px;
+		position: absolute;
+		background-repeat: no-repeat;
+	}
+
+	.sub_controls {
+		background: url("../../../shared/images/sub_controls.svg");
+		background-size: contain;
+		width: 203px;
+		height: 57px;
+		position: absolute;
+		background-repeat: no-repeat;
+		left: 117px;
+		top: 41px;
+
+		.print {
+			position: absolute;
+			width: 48px;
+			height: 53px;
+			z-index: 2;
+			a {
+				width: 48px;
+				height: 53px;
+				top: 0;
+				left: 0;
+				position: absolute;
+			}
+		}
+
+		.mail {
+			position: absolute;
+			width: 48px;
+			height: 53px;
+			left: 62px;
+			z-index: 2;
+		}
+
+		.back_button {
+			position: absolute;
+			width: 48px;
+			height: 53px;
+			left: 119px;
+			top: 3px;
+			z-index: 2;
+		}
+	}
+
+	.takeda_content_slider {
+		position: absolute;
+		top: 44px;
+		left: 62px;
+		width: 940px;
+		z-index: 0;
+
+		.takedaSlideOne {
+			margin-top: 79px;
+			margin-left: 60px;
+		}
+
+		.takedaSlideTwo {
+			.fc2 {
+				margin-top: 6px;
+				margin-left: 0 !important;
+				text-indent: 0 !important;
+			}
+
+			.fc3 {
+				margin-left: 4px !important;
+			}
+		}
+
+		.takeda-carousel {
+			display: block;
+
+			.owl-prev,
+			.owl-next {
+				background: transparent;
+			}
+
+			.owl-nav {
+				text-align: left;
+				position: absolute;
+				top: -8px;
+				left: 289px;
+			}
+
+			.owl-prev {
+				margin-left: 4px;
+				padding-left: 0;
+			}
+
+			.owl-next {
+				margin-left: 65px;
+			}
+
+			.owl-prev > div {
+				background: url("../../../shared/images/left_chev.svg") no-repeat;
+				background-size: contain;
+				width: 14px;
+				height: 23px;
+			}
+
+			.owl-next > div {
+				background: url("../../../shared/images/right_chev.svg") no-repeat;
+				background-size: contain;
+				width: 14px;
+				height: 23px;
+			}
+
+			.owl-dots {
+				text-align: left;
+				position: absolute;
+				left: 320px;
+				width: 61px;
+				top: 11px;
+			}
+
+			.owl-dot span {
+				background: transparent;
+				border: 1px solid white;
+				width: 12px;
+				height: 12px;
+				margin-right: 9px;
+			}
+
+			.owl-dot.active span {
+				background: #ff921f;
+				box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.05), 0 4px 6px 0 rgba(0, 0, 0, 0.15);
+				border: 0;
+			}
+
+			.main_Content {
+				// margin-top: 30px;
+				b {
+					font-family: $font-gotham-book-bold;
+				}
+
+				h4 {
+					font-family: $font-gotham-book-bold;
+					font-size: 16.8px;
+					color: #7f1700;
+					letter-spacing: 0;
+					line-height: 23px;
+					text-transform: uppercase;
+					margin-bottom: 13px;
+				}
+
+				p {
+					font-family: $font-gotham-book;
+					color: #ffffff;
+					font-size: 36px;
+					letter-spacing: 0;
+					line-height: 50px;
+				}
+
+				.footerContent {
+					color: #ffffff;
+					font-family: $font-gotham-book;
+					font-size: 9.81px;
+					letter-spacing: 0;
+					line-height: 13px;
+					margin-left: 2px;
+				}
+
+				.fc1 {
+					margin-top: 13px;
+				}
+
+				.fc2 {
+					margin-top: 6px;
+					text-indent: -5px;
+				}
+
+				.fc3 {
+					margin-top: 6px;
+				}
+			}
+
+			.tableContainer {
+				width: 890px;
+				top: 3px;
+				margin-bottom: 13px;
+			}
+
+			.tableFixHead {
+				overflow-y: auto;
+				height: 240px;
+				background: #ffffff;
+				border: 1px solid #979797;
+				//   box-shadow: 0 6px 9px 0 #4c4c4c;
+				border-radius: 12.74px;
+				table {
+					background: #ffffff;
+				}
+			}
+
+			.tableFixHead thead th {
+				position: sticky;
+				top: 0;
+				z-index: 1;
+			}
+
+			/* Just common table stuff. Really. */
+			table {
+				border-collapse: collapse;
+				width: 100%;
+			}
+
+			td {
+				padding: 22px 0px;
+				font-family: $font-gotham-book;
+				font-size: 12px;
+				line-height: 100%;
+				color: #4c4948;
+			}
+
+			th {
+				padding: 8px 16px;
+			}
+
+			th {
+				background: #7f1700;
+			}
+
+			.t-heading-style {
+				font-family: $font-gotham-book;
+				font-size: 17.24px;
+				color: #ffffff;
+			}
+
+			.bb-zero {
+				border-bottom: 0;
+			}
+
+			.p-l-28 {
+				padding-left: 28px;
+			}
+
+			.border-table {
+				border-right: 1px solid #979797;
+				border-left: 1px solid #979797;
+			}
+		}
+	}
+
+	.oFootnote {
+		font-family: $font-gotham-book;
+		position: absolute;
+		font-size: 11.1px;
+		color: #4c4948;
+		letter-spacing: 0;
+		line-height: 17px;
+		left: 118px;
+	}
+
+	.outputFootnote {
+		top: 644px;
+	}
+
+	.outputFootnote1 {
+		top: 620px;
+	}
+
+	#customerAccountName,
+	#customerAccount {
+		pointer-events: none;
+	}
+
+	.global-side-nav {
+		display: none;
+	}
+
+	.owl-carousel:not(.owl-loaded) {
+		opacity: 0;
+	}
+
+	.owl-carousel:not(.owl-loaded) {
+		opacity: 0;
+		visibility: hidden;
+		height: 0;
+	}
+
+	.Takeda_ISIfooterbackground {
+		left: 1px;
+		top: 118px;
+		width: 910px;
+		height: 168px;
+		position: absolute;
+		overflow: hidden;
+	}
+	.Takeda_ISIfooterbackground .Takeda_Footeriscroll {
+		position: absolute;
+		width: 910px;
+		z-index: 1;
+		box-sizing: border-box;
+	}
+	.Takeda_main {
+		width: 888px;
+	}
+	.Takeda_ISIfooterbackground .Takeda_Footeriscroll {
+		top: 0;
+		bottom: 0px;
+		overflow: hidden;
+	}
+	.Takeda_main > table {
+		// height: 455px;
+	}
+	.takedaSlideTwo {
+		.iScrollVerticalScrollbar {
+			background-color: #c7c7c7 !important;
+			top: 12px !important;
+			right: 3px !important;
+			height: 120px !important;
+			width: 1px !important;
+			position: absolute;
+			overflow: visible !important;
+			border-radius: 10px !important;
+		}
+		.iScrollIndicator {
+			border: none;
+			width: 6px !important;
+			right: -2px !important;
+			position: absolute;
+			cursor: pointer;
+			display: block !important;
+			border-radius: 10px !important;
+			background: #7f1700 !important;
+			border: 0 !important;
+		}
+	}
+	tr:nth-child(even) {
+		background-color: #e7e7e7;
+	}
+	.CuvitruISI,
+	.HyqviaISI,
+	.gammagardISI {
+		display: none;
+	}
+	.sideLine {
+		position: absolute;
+		top: 0px;
+		left: 202px;
+		width: 2px;
+		height: 55px;
+		background: #ffffff;
+		border-radius: 10px;
+		display: none;
+	}
+}

@@ -1,0 +1,36 @@
+.Stiolto-idtl-global-nav {
+	position: absolute;
+	top: 0;
+   left: 0;
+   width: calc(100%);
+   z-index: 2;
+   .nav-container{
+      position: absolute;
+      top: 0;
+      left: 179px;
+      width: 845px;
+      height: 40px;
+      .main-link {
+         height: 40px;
+         top: 0;
+         position: absolute;
+         .copd-button {
+            width: 285px;
+            left: 0px;
+         }
+         .respimatInhaler-button {
+            width: 324px;
+            left: 286px;
+         }
+         .supportForOrganization-button {
+            width: 234px;
+            left: 611px;
+         }
+         a{
+            position: absolute;
+            height: 40px;
+            top:0;
+         }
+      }
+   }
+}

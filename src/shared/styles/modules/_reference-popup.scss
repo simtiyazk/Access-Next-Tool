@@ -1,0 +1,26 @@
+.pop-up{
+   .ref-container{
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 605px;
+      background-color: rgba(0, 0, 0, 0.5);
+      .inner-container{
+         width: 650px;
+         height: 490px;
+         top: 80px;
+         position: relative;
+         margin: 0 auto;
+         background-color: $color-white;
+         .ref-close-btn{
+            background: url('../../../shared/images/close-button.png') no-repeat;
+            background-size: contain;
+            width: 31px;
+            height: 31px;
+            top: -16px;
+            right: -16px;
+            position: absolute;
+         }
+      }
+   }
+}

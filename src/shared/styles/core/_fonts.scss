@@ -1,0 +1,246 @@
+//
+// Typography
+// --------------------------------------------------
+
+$font-url: "../../../shared/fonts";
+
+@font-face {
+    font-family: '#{$font-avenirnext-bold}';
+    src: url('#{$font-url}/#{$font-avenirnext-bold}.eot');
+    src: url('#{$font-url}/#{$font-avenirnext-bold}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-avenirnext-bold}.woff') format('woff'),
+         url('#{$font-url}/#{$font-avenirnext-bold}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-avenirnext-bold}.svg##{$font-avenirnext-bold}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-avenirnext-black}';
+    src: url('#{$font-url}/#{$font-avenirnext-black}.eot');
+    src: url('#{$font-url}/#{$font-avenirnext-black}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-avenirnext-black}.woff') format('woff'),
+         url('#{$font-url}/#{$font-avenirnext-black}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-avenirnext-black}.svg##{$font-avenirnext-black}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-avenir-heavy}';
+    src: url('#{$font-url}/#{$font-avenir-heavy}.eot');
+    src: url('#{$font-url}/#{$font-avenir-heavy}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-avenir-heavy}.woff') format('woff'),
+         url('#{$font-url}/#{$font-avenir-heavy}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-avenir-heavy}.svg##{$font-avenir-heavy}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-avenirnext-heavy}';
+    src: url('#{$font-url}/#{$font-avenirnext-heavy}.eot');
+    src: url('#{$font-url}/#{$font-avenirnext-heavy}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-avenirnext-heavy}.woff') format('woff'),
+         url('#{$font-url}/#{$font-avenirnext-heavy}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-avenirnext-heavy}.svg##{$font-avenirnext-heavy}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-avenirnext-medium}';
+    src: url('#{$font-url}/#{$font-avenirnext-medium}.eot');
+    src: url('#{$font-url}/#{$font-avenirnext-medium}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-avenirnext-medium}.woff') format('woff'),
+         url('#{$font-url}/#{$font-avenirnext-medium}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-avenirnext-medium}.svg##{$font-avenirnext-medium}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-avenirnext-regular}';
+    src: url('#{$font-url}/#{$font-avenirnext-regular}.eot');
+    src: url('#{$font-url}/#{$font-avenirnext-regular}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-avenirnext-regular}.woff') format('woff'),
+         url('#{$font-url}/#{$font-avenirnext-regular}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-avenirnext-regular}.svg##{$font-avenirnext-regular}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-avenirnext-medium-italic}';
+    src: url('#{$font-url}/#{$font-avenirnext-medium-italic}.eot');
+    src: url('#{$font-url}/#{$font-avenirnext-medium-italic}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-avenirnext-medium-italic}.woff') format('woff'),
+         url('#{$font-url}/#{$font-avenirnext-medium-italic}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-avenirnext-medium-italic}.svg##{$font-avenirnext-medium-italic}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-avenirnext-demibold}';
+    src: url('#{$font-url}/#{$font-avenirnext-demibold}.eot');
+    src: url('#{$font-url}/#{$font-avenirnext-demibold}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-avenirnext-demibold}.woff') format('woff'),
+         url('#{$font-url}/#{$font-avenirnext-demibold}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-avenirnext-demibold}.svg##{$font-avenirnext-demibold}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-opensans-regular}';
+    src: url('#{$font-url}/#{$font-opensans-regular}.eot');
+    src: url('#{$font-url}/#{$font-opensans-regular}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-opensans-regular}.woff') format('woff'),
+         url('#{$font-url}/#{$font-opensans-regular}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-opensans-regular}.svg##{$font-avenirnext-demibold}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-opensans-semibold}';
+    src: url('#{$font-url}/#{$font-opensans-semibold}.eot');
+    src: url('#{$font-url}/#{$font-opensans-semibold}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-opensans-semibold}.woff') format('woff'),
+         url('#{$font-url}/#{$font-opensans-semibold}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-opensans-semibold}.svg##{$font-avenirnext-demibold}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-opensans-italic}';
+    src: url('#{$font-url}/#{$font-opensans-italic}.eot');
+    src: url('#{$font-url}/#{$font-opensans-italic}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-opensans-italic}.woff') format('woff'),
+         url('#{$font-url}/#{$font-opensans-italic}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-opensans-italic}.svg##{$font-avenirnext-demibold}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-opensans-bold}';
+    src: url('#{$font-url}/#{$font-opensans-bold}.eot');
+    src: url('#{$font-url}/#{$font-opensans-bold}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-opensans-bold}.woff') format('woff'),
+         url('#{$font-url}/#{$font-opensans-bold}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-opensans-bold}.svg##{$font-avenirnext-demibold}') format('svg');
+}
+
+
+@font-face {
+    font-family: '#{$font-opensans-extrabold}';
+    src: url('#{$font-url}/#{$font-opensans-extrabold}.eot');
+    src: url('#{$font-url}/#{$font-opensans-extrabold}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-opensans-extrabold}.woff') format('woff'),
+         url('#{$font-url}/#{$font-opensans-extrabold}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-opensans-extrabold}.svg##{$font-avenirnext-demibold}') format('svg');
+}
+
+@font-face {
+    font-family: '#{$font-gothamnarrow-bold}';
+    src: url('#{$font-url}/#{$font-gothamnarrow-bold}.eot');
+    src: url('#{$font-url}/#{$font-gothamnarrow-bold}.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-url}/#{$font-gothamnarrow-bold}.woff2') format('woff2'),
+        url('#{$font-url}/#{$font-gothamnarrow-bold}.woff') format('woff'),
+        url('#{$font-url}/#{$font-gothamnarrow-bold}.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '#{$font-gothamnarrow-book}';
+    src: url('#{$font-url}/#{$font-gothamnarrow-book}.eot');
+    src: url('#{$font-url}/#{$font-gothamnarrow-book}.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-url}/#{$font-gothamnarrow-book}.woff2') format('woff2'),
+        url('#{$font-url}/#{$font-gothamnarrow-book}.woff') format('woff'),
+        url('#{$font-url}/#{$font-gothamnarrow-book}.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '#{$font-gothamnarrow-medium}';
+    src: url('#{$font-url}/#{$font-gothamnarrow-medium}.eot');
+    src: url('#{$font-url}/#{$font-gothamnarrow-medium}.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-url}/#{$font-gothamnarrow-medium}.woff2') format('woff2'),
+        url('#{$font-url}/#{$font-gothamnarrow-medium}.woff') format('woff'),
+        url('#{$font-url}/#{$font-gothamnarrow-medium}.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '#{$font-montserrat-regular}';
+    src: url('#{$font-url}/#{$font-montserrat-regular}.eot');
+    src: url('#{$font-url}/#{$font-montserrat-regular}.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-url}/#{$font-montserrat-regular}.woff2') format('woff2'),
+        url('#{$font-url}/#{$font-montserrat-regular}.woff') format('woff'),
+        url('#{$font-url}/#{$font-montserrat-regular}.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '#{$font-montserrat-medium}';
+    src: url('#{$font-url}/#{$font-montserrat-medium}.eot');
+    src: url('#{$font-url}/#{$font-montserrat-medium}.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-url}/#{$font-montserrat-medium}.woff2') format('woff2'),
+        url('#{$font-url}/#{$font-montserrat-medium}.woff') format('woff'),
+        url('#{$font-url}/#{$font-montserrat-medium}.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '#{$font-montserrat-bold}';
+    src: url('#{$font-url}/#{$font-montserrat-bold}.eot');
+    src: url('#{$font-url}/#{$font-montserrat-bold}.eot?#iefix') format('embedded-opentype'),
+        url('#{$font-url}/#{$font-montserrat-bold}.woff2') format('woff2'),
+        url('#{$font-url}/#{$font-montserrat-bold}.woff') format('woff'),
+        url('#{$font-url}/#{$font-montserrat-bold}.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '#{$font-gotham-book}';
+    src: url('#{$font-url}/#{$font-gotham-book}.eot');
+    src: url('#{$font-url}/#{$font-gotham-book}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-gotham-book}.woff') format('woff'),
+         url('#{$font-url}/#{$font-gotham-book}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-gotham-book}.svg##{$font-gotham-book}') format('svg');
+}
+
+
+@font-face {
+    font-family: '#{$font-gotham-book-light}';
+    src: url('#{$font-url}/#{$font-gotham-book-light}.eot');
+    src: url('#{$font-url}/#{$font-gotham-book-light}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-gotham-book-light}.woff') format('woff'),
+         url('#{$font-url}/#{$font-gotham-book-light}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-gotham-book-light}.svg##{$font-gotham-book-light}') format('svg');
+}
+
+
+@font-face {
+    font-family: '#{$font-gotham-book-medium}';
+    src: url('#{$font-url}/#{$font-gotham-book-medium}.eot');
+    src: url('#{$font-url}/#{$font-gotham-book-medium}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-gotham-book-medium}.woff') format('woff'),
+         url('#{$font-url}/#{$font-gotham-book-medium}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-gotham-book-medium}.svg##{$font-gotham-book-medium}') format('svg');
+}
+
+
+@font-face {
+    font-family: '#{$font-gotham-book-bold}';
+    src: url('#{$font-url}/#{$font-gotham-book-bold}.eot');
+    src: url('#{$font-url}/#{$font-gotham-book-bold}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-gotham-book-bold}.woff') format('woff'),
+         url('#{$font-url}/#{$font-gotham-book-bold}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-gotham-book-bold}.svg##{$font-gotham-book-bold}') format('svg');
+}
+
+
+@font-face {
+    font-family: '#{$font-gotham-black}';
+    src: url('#{$font-url}/#{$font-gotham-black}.eot');
+    src: url('#{$font-url}/#{$font-gotham-black}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-gotham-black}.woff') format('woff'),
+         url('#{$font-url}/#{$font-gotham-black}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-gotham-black}.svg##{$font-gotham-black}') format('svg');
+}
+@font-face {
+    font-family: '#{$font-gotham-book-italic}';
+    src: url('#{$font-url}/#{$font-gotham-book-italic}.eot');
+    src: url('#{$font-url}/#{$font-gotham-book-italic}.eot') format('embedded-opentype'),
+         url('#{$font-url}/#{$font-gotham-book-italic}.woff') format('woff'),
+         url('#{$font-url}/#{$font-gotham-book-italic}.ttf') format('truetype'),
+         url('#{$font-url}/#{$font-gotham-book-italic}.svg##{$font-gotham-book-italic}') format('svg');
+}

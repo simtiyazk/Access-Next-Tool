@@ -1,0 +1,143 @@
+.global-top-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1024px;
+    height: 65px;
+	z-index: 2;
+	div{
+		position: absolute;
+	}
+	#homeIcon{
+		top: 33px;
+		left: 35px;
+		width: 29px;
+		height: 24px;
+		position: absolute;
+		a{
+			width: 29px;
+			height: 24px;
+			position: absolute;
+			// img{
+			// 	width: 29px;
+			// 	height: auto;
+			// }
+			span{
+				background: url('../../../shared/images/homeIcon.svg');
+				background-size: contain;
+				width: 29px;
+				height: 24px;
+				position: absolute;
+				background-repeat: no-repeat;
+			}
+		}
+	}
+	#settingsIcon{
+		top: 32px;
+		left: 96px;
+		a{
+			width: 27px;
+			height: 27px;
+			img{
+				width: 27px;
+				height: auto;
+			}
+		}
+	}
+	#savedTemplatesIcon{
+		top: 33px;
+		left: 151px;
+		display: inline-block;
+		a{
+			width: 28px;
+			height: 24px;
+			img{
+				width: 28px;
+				height: auto;
+				display: inline-block;
+			}
+			span{
+				position: relative;
+				top: -15px;
+				display: inline-block;
+				font-size: 8px;
+				font-weight: 700;
+				text-align: center;
+				white-space: nowrap;
+				vertical-align: middle;
+				background-color: #EBA800;
+				border-radius: 50%;
+				color: #fff;
+				width: 13px;
+				height: 13px;
+				line-height: 12px;
+				right: 10px;
+			}
+		}
+	}
+	#customerAccountName{
+		top: 32px;
+		right: 78px;
+		font-family: $font-gotham-book;
+		font-size: 9px;
+		color: #797979;
+		letter-spacing: 2.22px;
+		text-align: right;
+		line-height: 34px;
+		// text-transform: uppercase;
+	}
+	#customerAccount{
+		top: 33px;
+		right: 36px;
+		display: inline-block;
+		width: 24px;
+		height: 25px;
+		position: absolute;
+		display: inline-block;
+		background: url(../../../shared/images/userIcon.svg);
+		background-size: contain;
+		width: 24px;
+		height: 25px;
+		position: absolute;
+		background-repeat: no-repeat;
+		a{
+			width: 24px;
+			height: 25px;
+			position: absolute;
+			.userIcon{
+				// display: inline-block;
+				// background: url('../../../shared/images/userIcon.svg');
+				// background-size: contain;
+				// width: 24px;
+				// height: 25px;
+				// position: absolute;
+				// background-repeat: no-repeat;
+			}
+			.badge{
+				position: relative;
+				top: -10px;
+				display: inline-block;
+				font-size: 8px;
+				font-weight: 700;
+				text-align: center;
+				white-space: nowrap;
+				vertical-align: middle;
+				background-color: #EBA800;
+				border-radius: 50%;
+				color: #fff;
+				width: 13px;
+				height: 13px;
+				line-height: 12px;
+				right: -18px;
+			}
+		}
+	}
+	.sideNavActive{
+		display: none;
+		top: 33px;
+		right: 36px;
+		width: 24px;
+		height: 25px;
+		position: absolute;
+	}
+}

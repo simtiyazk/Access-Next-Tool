@@ -1,0 +1,23 @@
+
+.ctas {
+   position: relative;
+   top: 0;
+   left: 0;
+   box-shadow: 0 0 2px 0 rgba(0,0,0,0.12);
+   font-family: "AvenirNext-Bold";
+   font-size: 13px;
+   border-radius: 8px;
+   border: 1px solid #D1D1D1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   &.cta-red {
+      color: $color-white;
+      background: $color-alizarin-crimson;
+   }
+
+   &.cta-white {
+      color: $color-alizarin-crimson;
+   }
+}

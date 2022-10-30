@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/main";
+
+/********** Slide Specific Styles *********/
+
+#access_next_tool_20_00 {
+    h2{
+        font-family: $font-gotham-book;
+        color: #FF0000;
+        position: absolute;
+        left: 357px;
+        top: 105px;
+        font-size: 30.5px;
+        letter-spacing: -0.1px;
+        margin-right: 10px;
+        span{
+            font-family: $font-gotham-book-bold;
+        }
+    }
+    .brand-section{
+        position: absolute;
+        top: 160px;
+        left: 60px;
+        width: 910px;
+        height: 400px;
+        .logo-box{
+            position: absolute;
+            width: 245px;
+            height: 204px;
+            border: 1px solid #979797;
+            box-shadow: 0 2px 13px 0 #BEC6C7;
+            border-radius: 8px;
+        }
+        #cuvitruBrandBox{
+            position: absolute;
+            width: 245px;
+            height: 204px;
+            border: 0px;
+            z-index: 1;
+            opacity: 0 !important;
+            top: 36px;
+            left: 33px;
+        }
+        #hyqviaBrandBox{
+            position: absolute;
+            width: 245px;
+            height: 204px;
+            border: 0px;
+            z-index: 1;
+            opacity: 0 !important;
+            top: 36px;
+            left: 313px;
+
+        }
+        #gammagardBrandBox{
+            position: absolute;
+            width: 245px;
+            height: 204px;
+            border: 0px;
+            z-index: 1;
+            opacity: 0 !important;
+            top: 36px;
+            left: 627px;
+        }
+    }
+    .cuvitru-brand{
+        top: 36px;
+        left: 33px;
+        .cuvitru-logo{
+            img{
+                width: 184px;
+                height: auto;
+                position: relative;
+                top: 65px;
+                left: 30px;
+            }
+        }
+    }
+    .hyqvia-brand{
+        top: 36px;
+        left: 313px;
+        .hyqvia-logo{
+            img{
+                width: 183px;
+                height: auto;
+                position: relative;
+                top: 68px;
+                left: 30px;
+            }
+        }
+    }
+    .gammagard-brand{
+        top: 36px;
+        left: 627px;
+        .gammagard-logo{
+            img{
+                width: 165px;
+                height: auto;
+                position: relative;
+                top: 60px;
+                left: 40px;
+            }
+        }
+    }
+    .brand-section input[type=checkbox] {
+        // display: none;
+    }
+    .v-line{
+        position: absolute;
+        background-color: #C7C7C7;
+        height: 101px;
+        width: 1px;
+        top: 86px;
+        left: 593px;
+    }
+    .skipLink{
+        position: relative;
+        top: 320px;
+        left: 318px;
+        width: 124px;
+        cursor: pointer;
+        a{
+            position: relative;
+            top: 0;
+            left: 0;
+            font-family: "AvenirNext-Bold";
+            font-size: 11px;
+            color: #FF0000;
+            letter-spacing: 2.25px;
+            text-align: center;
+            padding: 13px 44px;
+            border: 1px solid #D1D1D1;
+            box-shadow: 0 0 2px 0 rgba(0,0,0,0.12);
+            border-radius: 8px;
+        }
+    }
+    .continueLink{
+        position: relative;
+        top: 302px;
+        left: 463px;
+        width: 123px;
+        cursor: pointer;
+        a{
+            position: relative;
+            top: 0;
+            left: 0;
+            font-family: "AvenirNext-Bold";
+            font-size: 11px;
+            color: #fff;
+            letter-spacing: 2.25px;
+            text-align: center;
+            padding: 13px 22px;
+            box-shadow: 0 0 2px 0 rgba(0,0,0,0.12);
+            border-radius: 8px;
+            // background: #FF0000;
+            background: #EDECEC;
+            pointer-events: none;
+        }
+    }
+    .closeToolTip{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 210px;
+        top: 0px;
+        img{
+            width: 8px;
+            left: 8px;
+            position: absolute;
+            top: 8px;
+        }
+    }
+    .tt-content-style-b{
+        min-width: 234px;
+        max-width: 234px;
+        left: 700px;
+        top: 44px;
+        height: 136px;
+        padding: 8px 8px 17px 19px;
+        color: #444444;
+        background-color: #EEEEEE;
+        border-radius: 8px;
+        position: absolute;
+        z-index: 99999999;
+        box-sizing: border-box;
+        display: none;
+        p{
+            color: #939393;
+            font-family: $font-gotham-book;
+            font-size: 8.9px;
+            line-height: 13px;
+            position: absolute;
+        }
+        i{
+            position: absolute;
+            margin-top: -11px;
+            width: 12px;
+            height: 24px;
+            top: 71px;
+            left: -11px;
+            overflow: hidden;
+        }
+        .tooltipArrow::after{
+            content: '';
+            position: absolute;
+            width:12px;
+            height:12px;
+            left:0;
+            top:50%;
+            transform:translate(50%,-50%) rotate(-45deg);
+            background-color: #EEEEEE;
+        }
+    }
+    .tt-styles-b{
+        background-color: transparent;
+        height: 15px;
+        width: 15px;
+        left: 671px;
+        position: absolute;
+        top: 109px;
+        background: url('../../../shared/images/toolTipIconGrey.svg') no-repeat;
+        background-size: contain;
+    }
+    .line1{
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+    .line2{
+        margin-top: 47px;
+    }
+    .line3{
+        margin-top: 85px;
+    }
+    .global-side-nav{
+        display: none;
+    }
+}

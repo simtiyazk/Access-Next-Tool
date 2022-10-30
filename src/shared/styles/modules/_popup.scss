@@ -1,0 +1,396 @@
+.pop-up {
+   background-color: transparent;
+   height: 100%;
+   position: absolute;
+   width: 100%;
+   z-index: 12;
+   top: 0;
+   left: 0;
+
+   .insight-btn {
+      display: none;
+   }
+   .container {
+      // @include displayFlex();
+      overflow: hidden;
+      // top: 60px;
+      // left: 50px;
+      // height: 531px;
+      // position: absolute;
+      // width: 923px;
+
+      .isi-close {
+         position: absolute;
+         top: 83px;
+         right: 107px;
+         width: 23px;
+         height: 27px;
+         z-index: 2;
+      }
+      .glossary-close {
+         position: absolute;
+         width: 23px;
+         height: 27px;
+         z-index: 2;
+      }
+      .reference-close{
+         position: absolute;
+         width: 23px;
+         height: 27px;
+         z-index: 2;
+      }
+      .content-close{
+         position: absolute;
+         width: 23px;
+         height: 27px;
+         z-index: 2;
+      }
+      .tab-content-popup-close{
+         position: absolute;
+         width: 55px;
+         height: 50px;
+         z-index: 2;
+      }
+   }
+
+   .inner-container {
+      height: 100%;
+      width: 100%;
+   }
+
+   .content-img {
+      img {
+         width: 100%;
+      }
+   }
+
+   &.hide {
+      display: none;
+   }
+
+   &#study-design-popup {
+      .content {
+         height: 100%;
+
+         img {
+            width: 100%;
+         }
+      }
+
+      .scroller {
+         height: 100%;
+      }
+   }
+   &#ninlaro-hcp-insight-popup {
+      .insight-btn {
+         display: block;
+         top: 573px;
+         left: 894px;
+         width: 121px;
+         position: absolute;
+      }
+      .inner-container {
+         height: 93%;
+         width: 96%;
+         background: rgba($color-bahama-blue, 0.95);
+         margin: 15px auto 0;
+         border-radius: 10px;
+         position: relative;
+      }
+      .content-img {
+         img {
+            position: absolute;
+            left: 146px;
+            width: 640px;
+            top: 139px;
+         }
+      }
+      .isi-close {
+         top: -15px;
+         right: -15px;
+         width: 30px;
+      }
+      &-pi {
+         height: auto;
+         .insight-btn {
+            display: block;
+            top: 490px;
+            left: 98px;
+            width: 121px;
+            position: absolute;
+         }
+         .container {
+            height: 359px;
+            width: 885px;
+            top: 186px;
+            left: 161px;
+         }
+         .inner-container {
+            height: 80%;
+            width: 76%;
+            background: rgba($color-bahama-blue, 0.95);
+            margin: 15px auto 0;
+            border-radius: 10px;
+            position: relative;
+         }
+         .content-img {
+            img {
+               position: absolute;
+               left: 33px;
+               width: 595px;
+               top: 40px;
+            }
+         }
+         .isi-close {
+            top: -7px;
+            right: -5px;
+            width: 30px;
+            overflow: visible;
+         }
+      }
+   }
+   &#ninlaro-hcp-safety-insight-popup {
+      .insight-btn {
+         display: block;
+         top: 573px;
+         left: 894px;
+         width: 121px;
+         position: absolute;
+      }
+      .inner-container {
+         height: 93%;
+         width: 96%;
+         background: rgba($color-bahama-blue, 0.95);
+         margin: 15px auto 0;
+         border-radius: 10px;
+         position: relative;
+      }
+      .content-img {
+         img {
+            position: absolute;
+            left: 146px;
+            width: 590px;
+            top: 139px;
+         }
+      }
+      .isi-close {
+         top: -15px;
+         right: -15px;
+         width: 30px;
+      }
+   }
+
+   &#ninlaro-hcp-popup-isi {
+      .container {
+         width: 100%;
+         height: 100%;
+         top: 0;
+         left: 0;
+         position: relative;
+      }
+      .inner-container {
+         background-color: rgba(88, 89, 91, 0.35);
+         img {
+            width: 1024px;
+            position: absolute;
+            bottom: 0;
+         }
+      }
+      .isi-close {
+         text-indent: 100%;
+         overflow: hidden;
+         height: 40px;
+         top: 193px;
+         right: 148px;
+         width: 40px;
+      }
+   }
+}
+
+.popup-links {
+   position: absolute;
+
+   li {
+      display: inline-block;
+      height: 25px;
+      margin-left: 54px;
+      width: 25px;
+
+      &:first-child {
+         margin-left: 0;
+      }
+
+      a {
+         display: block;
+         height: 100%;
+      }
+   }
+}
+
+.tab-popup {
+
+   .popup-tab-triggers {
+      position: absolute;
+      right: 5px;
+      top: 156px;
+      list-style: none;
+      z-index: 2;
+
+      .tab-link {
+         width: 39px;
+         height: 44px;
+
+         a {
+            display: block;
+            height: 100%;
+         }
+      }
+   }
+
+   .popup-tab-container {
+      padding: 8px 5px 5px;
+      width: 100%;
+      height: 100%;
+   }
+
+   .tab {
+      display: none;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+
+      img {
+         width: calc(100% - 10px);
+      }
+
+      &.active {
+         display: block;
+      }
+   }
+}
+
+#symptoms-woman-ref, #symptoms-boy-ref, #results-woman-ref, #results-boy-ref {
+   .inner-container {
+      padding-top: 137px;
+   }
+}
+
+//pdf popup
+#ninlaro_hcp_idetail_90_10, #ninlaro_hcp_idetail_90_20 {
+  .pdf-popup-container {
+
+    background-color: #ffffff;
+    z-index: 22;
+    position: absolute;
+    transition: all 0.5s;
+    height: 100%;
+    width: 100%;
+    .container {
+      overflow: hidden;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+
+      .isi-close {
+        position: absolute;
+        z-index: 2;
+      }
+    }
+
+    .inner-container {
+      height: 100%;
+      width: 100%;
+    }
+
+    .pop-up-header {
+      width: 100%;
+      height: 47px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #dbdbdb;
+    }
+
+    .isi-close {
+      font-family: Helvetica, arial;
+      font-size: 17px;
+      cursor: pointer;
+      top: 0;
+      left: 150px;
+      height: 47px;
+      width: 70px;
+      color: #0078fb;
+      span {
+        position: relative;
+        top: 10px;
+        left: 16px;
+      }
+    }
+
+    .pdf-scroll {
+      height: 93%;
+      overflow-y: scroll;
+      padding: 6px 6px 6px 10px;
+      width: 100%;
+      @include scrollBar();
+    }
+
+    .pdf-body {
+      position: relative;
+      img {
+        width: 100%;
+        margin: 0 auto 6px;
+        box-shadow: 0px 2px 6px 0 #797979;
+        &.half-size {
+          width: 50%;
+        }
+      }
+    }
+    &.open {
+      transform: translateY(0px);
+    }
+    &.closed {
+      transform: translateY(800px);
+    }
+  }
+}
+
+#ninlaro_hcp_idetail_90_20 {
+  .pdf-popup-container {
+    .link {
+      position: absolute;
+      display: inline-block;
+      height: 28px;
+    }
+
+    .patient-information-1 {
+      width: 170px;
+      top: 1229px;
+      left: 40px;
+    }
+    .patient-information-2 {
+      width: 162px;
+      top: 1521px;
+      left: 219px;
+    }
+    .patient-information-3 {
+      width: 170px;
+      top: 2357px;
+      left: 215px;
+    }
+
+    .prescribing-information-1 {
+      width: 210px;
+      top: 1230px;
+      left: 413px;
+    }
+    .prescribing-information-2 {
+      width: 196px;
+      top: 1521px;
+      left: 461px;
+    }
+    .prescribing-information-3 {
+      width: 210px;
+      top: 2357px;
+      left: 583px;
+    }
+  }
+}

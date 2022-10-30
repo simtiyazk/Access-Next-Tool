@@ -1,0 +1,106 @@
+#isiMain{
+	position: absolute;
+    bottom: 0px;
+    height: 206px;
+    width: 980px;
+	
+	.isi_con{
+		background: url('../../../shared/images/cuvitruISI.png') no-repeat;
+		background-size: contain;
+		width: 876px;
+		height: 1210px;
+		margin-left: 58px;
+		margin-top: 4px;
+	}
+	.isi{
+		width: 970px;
+	}
+	  #isi_wrapper{
+		position: absolute;
+		bottom: 0px;
+		height: 206px;
+		width: 980px;
+		overflow: hidden;
+	  }
+	  .iScrollVerticalScrollbar {
+		background-color: #e0e0e0 !important;
+		top: 34px !important;
+		right: 3px !important;
+		height: 60% !important;
+		width: 2px !important;
+		position: absolute;
+		overflow: visible !important;
+	}
+	.iScrollIndicator {
+		border: none;
+		width: 6px !important;
+		right: -2px !important;
+		position: absolute;
+		cursor: pointer;
+		display: block !important;
+		border-radius: 10px !important;
+	}
+	.CuvitruISI{
+		position: absolute;
+		top: 1182px;
+		height: 20px;
+		width: 75px;
+		left: 124px;
+		a{
+			position: absolute;
+			top: 0px;
+			height: 20px;
+			width: 75px;
+			left: 0px;
+		}
+	}
+	.HyqviaISI{
+		position: absolute;
+		top: 1352px;
+		height: 20px;
+		width: 75px;
+		left: 129px;
+		a{
+			position: absolute;
+			top: 0px;
+			height: 20px;
+			width: 75px;
+			left: 0px;
+		}
+	}
+	.gammagardISI{
+		position: absolute;
+		top: 1527px;
+		height: 20px;
+		width: 75px;
+		left: 139px;
+		a{
+			position: absolute;
+			top: 0px;
+			height: 20px;
+			width: 75px;
+			left: 0px;
+		}
+	}
+	.takedaISI{
+		position: absolute;
+		top: 1103px;
+		height: 20px;
+		width: 75px;
+		left: 328px;
+		.takedaCuvitru{
+			position: absolute;
+			top: 0px;
+			height: 20px;
+			width: 58px;
+			left: 7px;
+		}
+		.takedahyqvia{
+			position: absolute;
+			top: 0px;
+			height: 20px;
+			width: 55px;
+			left: 89px;
+		}
+	}
+}

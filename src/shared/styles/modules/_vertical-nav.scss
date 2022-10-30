@@ -1,0 +1,35 @@
+.vertical-nav {
+	list-style: none;
+	position: absolute;
+	height: 86px;
+	right: 0;
+	top: 219px;
+	width: 40px;
+
+	li {
+		width: 100%;
+	}
+
+	a {
+		display: block;
+		width: 100%;
+	}
+
+	.prev {
+		position: absolute;
+		top: 0;
+
+		a {
+			height: 42px;
+		}
+	}
+
+	.next {
+		bottom: 0;
+		position: absolute;
+
+		a {
+			height: 45px;
+		}
+	}
+}

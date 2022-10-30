@@ -1,0 +1,21 @@
+.side-arrows {
+   position: relative;
+   top: 308px;
+   left: 0;
+   height: 72px;
+   width: 27px;
+   .left-button{
+      position: absolute;
+      left: 0;
+      height: 72px;
+      width: 27px;
+      top: 0;
+   }
+   .right-button{
+      position: absolute;
+      top: 0;
+      left: 997px;
+      height: 72px;
+      width: 27px;
+   }
+}
